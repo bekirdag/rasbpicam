@@ -1,18 +1,20 @@
+/*
+Project name: Raspberry Pi Zero camera case
+Project url: https://github.com/bekirdag/rasbpicam
+Licence: GNU
+Part: Part no#1, Rasbpi case part 1
+
+Author: Bekir Dağ
+Author website: https://bekirdag.com
+Author email: bekir@piyotecom
+*/
+
 $fn=100;
 
 use <camera_holder.scad>
 use <raspberry_pi_zero_top.scad>
 
 module raspberry_pi_zero_case_bottom() {
-    
-    /*
-    color("purple",0.5){
-        translate([4,4.9,-6])cylinder(6,1.72,1.72);
-        translate([4,27.9,-6])cylinder(6,1.72,1.72);
-        translate([62.3,4.9,-6])cylinder(6,1.72,1.72);
-        translate([62.4,27.9,-6])cylinder(6,1.72,1.72);
-    }
-    */
     
     difference(){
         union(){
@@ -57,8 +59,4 @@ module raspberry_pi_zero_case_bottom() {
 }
 
 raspberry_pi_zero_case_bottom();
-//translate([0,0,-9])raspberry_pi_zero_case_top();
-
-//translate([45,29.4,10])rotate([180,0,-90])camera_mount();
-
 

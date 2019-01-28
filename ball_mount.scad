@@ -1,3 +1,14 @@
+/*
+Project name: Raspberry Pi Zero camera case
+Project url: https://github.com/bekirdag/rasbpicam
+Licence: GNU
+Part: Part no#4, Ball mount
+
+Author: Bekir Dağ
+Author website: https://bekirdag.com
+Author email: bekir@piyotecom
+*/
+
 $fn=50;
 
 
