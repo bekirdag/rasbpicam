@@ -1,7 +1,7 @@
 $fn=100;
 
 use <camera_holder.scad>
-use <raspbi_pi_top.scad>
+use <raspberry_pi_zero_top.scad>
 
 module raspberry_pi_zero_case_bottom() {
     

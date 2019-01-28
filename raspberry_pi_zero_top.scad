@@ -25,11 +25,47 @@ module raspberry_pi_zero_case_top(){
             translate([62.4,27.9,-0.1])cylinder(6,1.74,1.74);
             
             translate([1.99,1.99,-0.1])rotate([0,0,180]) corner();            
-            translate([1.99,32.4,-0.1])rotate([0,0,90]) corner();
-            translate([64,1.99,-0.1])rotate([0,0,270]) corner();
-            translate([64,32.4,-0.1])rotate([0,0,0]) corner();
+            translate([1.99,32.41,-0.1])rotate([0,0,90]) corner();
+            translate([64.01,1.99,-0.1])rotate([0,0,270]) corner();
+            translate([64.01,32.41,-0.1])rotate([0,0,0]) corner();
         }
     }
 }
 
 raspberry_pi_zero_case_top();
+
+module wall_mount(){
+    difference(){
+        union(){
+            cube([4,8,8]);
+            translate([0,4,8])rotate([0,90,0])cylinder(4,4,4);
+        }
+        union(){
+            translate([-0.1,4,8])rotate([0,90,0])cylinder(6,2,2);
+        }
+    }
+}
+
+translate([50,10,0])rotate([180,0,90])wall_mount();
+translate([50,19,0])rotate([180,0,90])wall_mount();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
