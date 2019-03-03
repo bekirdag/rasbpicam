@@ -22,7 +22,7 @@ module nail_to_wall(){
     
     translate([10,4,-10])cylinder(10,3,3);
     
-    translate([10,4,-10])sphere(6);
+    translate([10,4,-10])sphere(6.2);
 }
 
 nail_to_wall();

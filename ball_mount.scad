@@ -15,9 +15,9 @@ $fn=50;
 module ball_mount(){
     
     difference(){
-        sphere(7.5);
+        color("red",0.5)sphere(7.8);
         union(){
-            sphere(6);
+            sphere(5.9);
             translate([-10,-10,4])cube([20,20,20]);
             translate([-1,-10,-4])cube([2,20,20]);
             translate([-10,-1,-4])cube([20,2,20]);

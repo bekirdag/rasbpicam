@@ -83,8 +83,8 @@ module hole(){
 
 module corner(){
     difference(){
-        cube([2,2,40]);
-        translate([0,0,-0.1]) cylinder(40,2,2);
+        cube([2,2,60]);
+        translate([0,0,-0.1]) cylinder(60,2,2);
     }
 }
 
